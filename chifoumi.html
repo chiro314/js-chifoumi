@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>chifoumi</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/> <!--Responsive-->
+    <link rel="stylesheet" href="chifoumi.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 id="h1" class="text-center">CHIFOUMI dans les DOIGTS</h1>
+        <br>
+
+        <div id="div-row" class="row">
+            <!--Jeu -->
+            <div class="col-12 offset-md-1 col-md-6">
+
+                <div class="row">
+                    <div class="col-12" id="div-commencer">
+                        <button id="bt-commencer" type="button">Commencer une partie</button>
+                    </div>
+                </div>
+                <br><br>
+
+                <div class="row">
+                    <div class="col-12" id="div-bts-joueur" >
+                        <button class="bt-joueur" id="bt-pierre" type="button"><img class="img-joueur" src="assets/img/pierre.png" alt="pierre"></button>
+                        <button class="bt-joueur" id="bt-papier" type="button"><img class="img-joueur" src="assets/img/papier.png" alt="papier"></button>
+                        <button class="bt-joueur" id="bt-ciseaux" type="button"><img class="img-joueur" src="assets/img/ciseaux.png" alt="ciseaux"></button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12" id="div-choix-ordi">
+                    </div>
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="col-12" id="div-message">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!--HISTO-->
+            <div id="div-deja" class="col-12 col-md-4">
+                <div class="row">
+                    <div class="col-12"><p id="p-titre-score">SCORE</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-6" id="div-gains">
+                        <p id="p-titre-gains">GAINS</p>
+                        <p id="p-gains"></p>
+                    </div>
+                    <div class="col-6" id="div-pertes">
+                        <p id="p-titre-pertes">PERTES</p>
+                        <p id="p-pertes"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12"><p id="p-titre-histo">HISTORIQUE</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-12" id="div-nb-parties"><p id="p-nb-parties">HISTORIQUE</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-6" id="div-gains">
+                        <p id="p-titre-toi">TOI</p>
+                    </div>
+                    <div class="col-6" id="div-pertes">
+                        <p id="p-titre-lui">LUI</p>
+                    </div>
+                </div>
+                <div class="row" ></div>
+                    <div class="col-12" id="div-histo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="chifoumi.js"></script> 
+</body>
+</html>
